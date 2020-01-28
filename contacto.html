@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Escuela de Cocina</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class= "header py-5 encabezado">
+    <div class="container">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-md-4 col-8 md-mb-0">
+                <a href="index.html">  
+                    <img src="img/logo.svg" class="img-fluid">
+
+                </a>
+
+            </div>
+            <!-- Este comando es para medir las dimensiones de las pantallas -->
+            <div class="col-md-8">
+            <!--Esta opcion la configurasmos para el menu -->
+            <nav class="navbar navbar-expand-md navbar-light justify-content-center">
+            <!-- configuracion del boton de usada para telef, el data target nos ayuda a cargar el menu-->
+                <button class="navbar-toggler mb-4" data-toggle="collapse" data-target="#nav_principal" aria-expanded="false" typen="button"> 
+                <span class="navbar-toggler-icon"></span>
+
+                </button>
+             <div id="nav_principal" class="collapse navbar-collapse justify-centent-center justify-content-lg-end text-center text-uppercase"> 
+                <a href="nosotros.html" class="nav-link">NOSOTROS</a>
+                <a href="blogs.html" class="nav-link ">BLOG</a>
+                <a href="clases.html" class="nav-link">CLASES</a>
+                <a href="galeria.html" class="nav-link">GALERIA</a>
+                <a href="contacto.html" class="nav-link active">CONTACTO</a>
+             </div> <!-- cierre del nav principal-->
+
+            </nav> <!-- cierre del nabvar -->
+
+            </div>
+        </div>
+
+    </div>
+
+</header>
+<div class="container">
+    <div class="row">
+        <div class="col-12 imagen-destacada nosotros-bgM"></div>
+    </div>
+</div>
+<main class="container">
+    <div class="row justify-content-center">
+    <div class="col-md-8 py-3 px-5 contenido-nosotros bg-light">
+        <p class="text-center my-5 separador">CONTACTO</p>
+
+         <from active="#">
+            <div class="form-group">
+                <label for="Nombre">Nombre:</label>
+                <input type="text" class="from-control" name="Nombre" id="nombre">
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="Telefono">Telefono:</label>
+                        <input type="Tel" class="from-control" name="Telefono" id="Telefono">
+                    </div>
+                </div>
+
+               <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="Email">E-mail: </label>
+                        <input type="email" class="from-control" name="Email" id="Email">
+                    </div>
+                </div>
+            </div>
+                    
+                    <div class="form-group">
+                        <label for="Nombre">Mensaje: </label>
+                        <textarea name="mensaje" id="mensaje" size="15" type="text" size="15" maxlength="30" ></textarea>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" class="btn btn-primary" values="enviar">
+                    </div>
+                        
+                    </div>
+
+        
+         </from>
+    </div>
+
+</div> <!--fin  del primer contenido-->
+
+
+
+<!-- creacion del footer para el menu de abajo -->
+<footer class="footer p-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <nav class="nav text-uppercase d-flex flex-column flex-md-row text-center text-md-left">
+                        <a href="nosotros.html" class="nav-link">NOSOTROS</a>
+                        <a href="blogs.html" class="nav-link">BLOG</a>
+                        <a href="clases.html" class="nav-link">CLASES</a>
+                        <a href="galeria.html" class="nav-link">GALERIA</a>
+                        <a href="contacto.html" class="nav-link">CONTACTO</a>
+                </nav>
+            </div>
+            <div class="col-md-6">
+                <p class="text-center text-md-rigth copyright mt-4 mt-md-0">DERECHOS RESERVADOS</p>
+            </div>
+
+         </div>
+    </div>
+
+</footer>
+<script src="js/jquery.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
